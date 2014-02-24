@@ -1,4 +1,4 @@
-TChain *chain = new TChain("tpTree/AnalysisTree");
+TChain *chain = new TChain("AnalysisTree");
 TFile *myFile = new TFile("histos_muons_data.root","RECREATE");
 
 TString baseAcceptCut = "tagPt>25&&abs(tagEta)<2.1&&invMass>60&&invMass<120";
